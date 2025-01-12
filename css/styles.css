@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.card-body {
+    height: 30rem;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar{
+    background-color: #E71837;
+}
+
+.form-control{
+    border: #E71837 1rem transparent;
+}
+
+.form-inline{
+    padding: 5%;
+    border-color: #E71837;
+    display: flex;
+}
+
+header .logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 5px;
+    position: relative;
+}
+
+header {
+    border-bottom: #E71837 10px solid;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.col-lg-4 {
+    font-weight: 2rem;
+    text-align: center;
+}
+.img-oferta{
+    width: 10rem;
+    height: 10rem;
+}
+
+.main {
+    padding: 15px;
+    background: #ffffff;
+}
+.main h1 {
+    text-align: center;
+}
+.main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.main table, th, td {
+    border: 1px solid #ffffff;
+}
+.main th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+p {
+    margin-left: 5px;
+}
