@@ -1,16 +1,44 @@
+/* https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
 }
 
+.btn-danger-manual{
+    background-color: #E71837;
+    color:#ffffff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 100;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #E71837;
+    border-radius: 0.5rem;
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--colorbs-btn-hover-);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
 .card-body {
     height: 30rem;
+    align-items: center;
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     display: flex;
+    align-items: stretch;
+    align-self: stretch;
 }
 
 .navbar{
@@ -19,6 +47,7 @@ body {
 
 .form-control{
     border: #E71837 1rem transparent;
+    padding-right: 10rem;
 }
 
 .form-inline{
@@ -62,10 +91,10 @@ footer {
     padding: 3% 2%;
 }
 
-.col-lg-4 {
-    font-weight: 2rem;
+.col-lg-4{
     text-align: center;
 }
+
 .img-oferta{
     width: 10rem;
     height: 10rem;
@@ -83,13 +112,12 @@ footer {
     border-collapse: collapse;
 }
 .main table, th, td {
-    border: 1px solid #ffffff;
+    border: 1.5px solid #a6a7a7;
 }
 .main th, td {
     padding: 10px;
     text-align: left;
 }
-
-p {
+h2 {
     margin-left: 5px;
 }
