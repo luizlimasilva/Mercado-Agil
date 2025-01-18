@@ -1,0 +1,133 @@
+/* https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.btn-danger-manual{
+    background-color: #E71837;
+    color:#ffffff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 100;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #E71837;
+    border-radius: 0.5rem;
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--colorbs-btn-hover-);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.card-body {
+    display:grid;
+    align-items: center;
+    height: 30rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    align-self: stretch;
+}
+
+.navbar{
+    background-color: #E71837;
+}
+
+.form-inline{
+    padding: 5%;
+    border-color: #E71837;
+    display: flex;
+}
+
+header .logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 5px;
+    position: relative;
+}
+
+header {
+    border-bottom: #521971 0.3rem solid;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+/* .pricing-column {
+    padding: 3% 2%;
+} */
+
+.col-lg-4{
+    text-align: center;
+    margin: center;
+}
+
+.img-oferta{
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+}
+
+.main {
+    padding: 15px;
+    background: #ffffff;
+}
+.main h1 {
+    text-align: center;
+}
+.main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.main table, th, td {
+    border: transparent
+}
+
+.main th, td {
+    border: transparent;
+    text-align: center;
+}
+h2 {
+    margin-left: 5px;
+}
+
+.titulo-card{
+    padding: 0;
+}
+
+.table {
+    border: transparent;
+    margin: auto;
+    text-align: center;
+}

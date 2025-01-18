@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Ágil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+
+        <!-- Nav Bar -->
+    
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <img src="img/logo.png" class="logo" href="index.html"></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="consultapreco.html">Consultar Preço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Montar Cesta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Ajuda</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <form class="form-inline">
+          <input class="form-control" autocomplete="on" type="search" placeholder="Pesquise por produtos" aria-label="Search">
+          <button type="button" class="btn btn-danger">Buscar</button>
+        </form>
+    <h2>Seleção de Produtos:</h2>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">
+          <button type="button" class="btn btn-outline-danger">Encontrar Lojas</button>
+            </th>
+            <th scope="col">
+          <button type="button" class="btn btn-outline-danger">Clique e Retire</button>
+                
+            </th>
+            <th scope="col">
+          <button type="button" class="btn btn-outline-danger">Compre Online</button>
+            
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+          <button type="button" class="btn btn-outline-danger" href="/consultapreco.html">Consultar Preço</button>
+            </th>
+            <td>
+          <button type="button" class="btn btn-outline-danger">Informar Preço</button>
+                
+            </td>
+            <td>
+          <button type="button" class="btn btn-outline-danger">Ler Nota Fiscal</button>
+        </tbody>
+      </table>
+      <br>
+
+      <h2>Melhores Ofertas:</h2>
+
+      <div class="row">
+
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="titulo-card">Carrefour Pedro Teixeira</h3>
+                </div>
+                <div class="card-body">
+                    <h3>Óleo de Soja Liza 900ml</h3>
+                    <img src="img/oleo.jpg" class="img-oferta"></img>
+                    <h3>R$ 10,09</h3>
+                    <p>Condomínio Parque São Jose - Av. Pedro Teixeira, 52 - Lote B - Dom Pedro, Manaus - AM, 69040-000</p>
+                    <br>
+                    <div class="d-grid gap-2">
+                    <a class="btn btn-lg btn-danger" type="button" href="https://maps.app.goo.gl/n7f7rTcd8un9zbLH9">Ir à Loja</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nova Era Torres</h3>
+                </div>
+                <div class="card-body">
+                    <h3>Feijão Carioca Tipo 1 KICALDO Pacote 1kg</h3>
+                    <img src="img/feijao.jpg" class="img-oferta"></img>
+                    <h3>R$ 5,99</h3>
+                    <p>Av. Gov. José Lindoso, 230 – Novo Aleixo - Manaus - AM, 69098-129</p>
+                    <br>
+                    <div class="d-grid gap-2">
+                    <a class="btn btn-lg btn-danger" type="button" href="https://maps.app.goo.gl/Vhb65HBjDMdusSxWA" >Ir à Loja</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Carrefour Adrianópolis</h3>
+                </div>
+                <div class="card-body">
+                    <h3>Cerveja Corona Extra Pilsen 330ml Long Neck</h3>
+                    <img src="img/corona.jpg" class="img-oferta"></img>
+                    <h2>R$ 7,19</h2>
+                    <p>Av. Umberto Calderaro, 203 - Adrianópolis, Manaus - AM, 69057-015</p>
+                    <br>
+                    <div class="d-grid gap-2">
+                    <a class="btn btn-lg btn-danger" href="https://maps.app.goo.gl/CjuantuRX2VPCA7g7">Ir à Loja</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <table class=" table">
+            <thead>
+              <tr>
+                <th scope="col">
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-lg btn-bd-primary" type="button" href="#">Ofertas</a></div>
+                  </div>
+                </th>
+                <th scope="col">
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-lg btn-bd-primary" type="button" href="#">Contas</a></div>
+                  </div>   
+                </th>
+                <th scope="col">
+              <div class="d-grid gap-2">
+                <a class="btn btn-lg btn-bd-primary" type="button" href="#">Ajuda</a></div>
+              </div>
+                </th>
+            </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
